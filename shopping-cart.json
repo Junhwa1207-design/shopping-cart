@@ -1,0 +1,30 @@
+[
+{"type":"header","version":"4.9.7","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"shopping-cart"},
+{"type":"table","name":"product_categories","database":"shopping-cart","data":
+[
+{"id":"1","title":"power_tools"},
+{"id":"2","title":"hand_tools"},
+{"id":"3","title":"storages"}
+]
+}
+,{"type":"table","name":"tbl_products","database":"shopping-cart","data":
+[
+{"id":"1","title":"Kombo Kits 01: Milwaukee Tool","img_jpg":"tool_01.jpg","price":" $529.00 ","video":"tool_01.mp4","description":"M18 18V Lithium-Ion Cordless Combo Tool Kit (6-Tool) w\/(2) 3.0 Ah Batteries, (1) Charger, (1) Tool Bag","quantity":"0"},
+{"id":"2","title":"Kombo Kits 02:RYOBI ","img_jpg":"tool_02.jpg","price":"$328.00","video":"tool_02.mp4\r\n","description":"18V ONE+ Lithium-Ion Cordless 6-Tool Combo Kit with (2) Batteries, Charger, and Bag","quantity":"0"},
+{"id":"3","title":"Kombo Kits 03:DEWALT","img_jpg":"tool_03.jpg","price":"$199.00","video":"tool_03.mp4\r\n","description":"20V MAX Lithium-Ion Cordless Drill\/Driver and Impact Combo Kit (2-Tool) with Battery 1.3Ah, Charger and Bag","quantity":"0"},
+{"id":"4","title":"Kombo Kits 04:MAKITA","img_jpg":"tool_04.jpg","price":"$199.00 ","video":"tool_04.mp4\r\n","description":"18V Lithium-Ion Cordless Drill and Impact Driver Combo Kit with 2 Batteries & Charger","quantity":"0"},
+{"id":"5","title":"Kombo Kits 05:RIDGID","img_jpg":"tool_05.jpg","price":"$248.00","video":"tool_05.mp4\r\n","description":"GEN5X 18V Lithium-Ion Brushless Cordless Drill\/Driver and Impact Driver Combo Kit (2-Tool)","quantity":"0"},
+{"id":"6","title":"Stiletto hammer","img_jpg":"tool_06.jpg","price":"$298.00","video":"tool_06.mp4","description":"15oz. TiBone 3 with Milled Face and Curved Handle\r\n","quantity":"0"},
+{"id":"7","title":"DEWALT hammer","img_jpg":"tool_07.jpg","price":"$49.98 ","video":"tool_07.mp4","description":"22 Oz. Steel Checkered Face Hammer","quantity":"0"},
+{"id":"8","title":"Milwaukee Tool:Tape Measure","img_jpg":"tool_08.jpg","price":"$14.98","video":"tool_08.mp4","description":"25 ft. Compact Tape Measure with 12 ft. Reach","quantity":"0"},
+{"id":"9","title":"DEWALT:Tape Measure","img_jpg":"tool_09.jpg","price":"$21.97","video":"tool_09.mp4","description":"25 ft. x 1-1\/8-inch Tape Measure (2-Pack)","quantity":"0"},
+{"id":"10","title":"STANLEY:Tape Measure","img_jpg":"tool_10.jpg","price":"$5.98","video":"tool_10.mp4","description":"25 ft. x 1-inch Tape Measure","quantity":"0"},
+{"id":"11","title":"Husky:Tool Storage Chest and Cabinet Combo","img_jpg":"tool_11.jpg","price":"$298.00 ","video":"tool_11.mp4","description":"27-inch 9-Drawer Mobile Tool Storage Chest and Cabinet Combo in Black","quantity":"0"},
+{"id":"12","title":"DEWALT:4-DRAWER TOOL CHEST","img_jpg":"tool_12.jpg","price":"$399.00","video":"tool_12.mp4","description":"26-inch WIDE 4-DRAWER TOOL CHEST","quantity":"0"},
+{"id":"13","title":"Milwaukee Too:Tool Box Storage","img_jpg":"tool_13.jpg","price":"$298.00","video":"tool_13.mp4","description":"22-inch Packout Modular Tool Box Storage System","quantity":"0"},
+{"id":"14","title":"Husky:Plastic Portable Tool Box","img_jpg":"tool_14.jpg","price":"$29.98","video":"tool_14.mp4","description":"22-inch Plastic Portable Tool Box with Metal Latches in Black","quantity":"0"},
+{"id":"15","title":"Milwaukee Tool:PACKOUT 10-Compartment","img_jpg":"tool_15.jpg","price":"$49.00 ","video":"tool_15.mp4","description":"PACKOUT 10-Compartment Low-Profile Small Parts Tool Organizer","quantity":"0"}
+]
+}
+]
