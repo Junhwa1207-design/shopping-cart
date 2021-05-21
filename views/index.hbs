@@ -1,7 +1,10 @@
-<section class="home-hero">
-    <h1>{{ message }}</h1>
+<section class="products">
+    <h3>{{ message }}</h3>
 
-    <productthumb v-for="item in allProducts" :product="item" :key="item.id"></productthumb>
+    <productthumb v-for="product in allProducts" :product="product" :key="product.id" class="product">
+         <h3 class="product_title">{{product.title}}</h3>
+    </productthumb>
+   
 
     
 </section>

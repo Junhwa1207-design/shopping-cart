@@ -1,0 +1,27 @@
+.nav {
+  align-items: center;
+  //background: salmon;
+  columns: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.cart-dropdown {
+  width: 100%;
+  background: gold;
+  border-radius: 14px;
+  padding: 20px;
+}
+.nav__cart {
+  margin-left: 80%;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+}
+.searchBox {
+  margin-top: 5%;
+  margin-left: 20%;
+}
