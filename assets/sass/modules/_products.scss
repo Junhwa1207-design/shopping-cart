@@ -1,8 +1,21 @@
-#app {
-  background-color: orangered;
-}
-
 .product-thumb {
   padding: 4px;
   cursor: pointer;
 }
+
+#app {
+  padding-left: 5%;
+}
+.description {
+  width: 50%;
+}
+.title {
+  color: orangered;
+  margin-top: 30px;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+// .product{
+//   display: flex;
+//   flex-direction: row;
+// }

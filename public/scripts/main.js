@@ -5,7 +5,8 @@ import TheProductThumb from './components/TheProductThumbnailComponent.js';
 (() => {
     const vm = new Vue({
         data: {
-            allProducts: []
+            allProducts: [],
+            showCart: false
         },
 
         created: function() {
@@ -18,12 +19,42 @@ import TheProductThumb from './components/TheProductThumbnailComponent.js';
             .catch(err => console.error(err));
         },
 
-        methods: {
+       computed: {
+           cart() {
+               return this.products.filter(product => product.quantity > 0);
+           },
+           totalQuantity() {
+               return this.products.reduce(
+                   (total, product) => total + product.quantity,
+                   0
+               );
+           }
 
         },
+
+        methods: {
+            updateCart(product, updateType){
+                for ( let i = 0; i < this.products.length; i++) {
+                    if (this.products[i].id === product.id) {
+                        if (updateType === 'subtract') {
+                            if (this.products[i].quantity !== 0) {
+                                this.products[i].quantity--;                            }
+                        }
+                    }else {
+                        this.product[i].quantity++;
+                    }
+
+                    break;
+                }
+            }
+
+        },
+
+
         components: {
             productthumb: TheProductThumb,
           
         }
     }).$mount("#app");
 })();
+

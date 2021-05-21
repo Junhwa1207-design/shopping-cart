@@ -1,10 +1,70 @@
-#app {
-  background-color: orangered;
-}
-
 .product-thumb {
   padding: 4px;
   cursor: pointer;
+}
+
+#app {
+  padding-left: 5%;
+}
+
+.description {
+  width: 50%;
+}
+
+.title {
+  color: orangered;
+  margin-top: 30px;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+.nav {
+  align-items: center;
+  columns: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.cart-dropdown {
+  width: 100%;
+  background: gold;
+  border-radius: 14px;
+  padding: 20px;
+}
+
+.nav__cart {
+  margin-left: 80%;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+}
+
+.searchBox {
+  margin-top: 5%;
+  margin-left: 20%;
+}
+
+.footer {
+  background: orange(228, 135, 14);
+}
+
+.float-right {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+}
+
+.float-right ul {
+  list-style-type: none;
+}
+
+.float-right li {
+  list-style-type: none;
+  padding-left: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
