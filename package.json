@@ -1,21 +1,21 @@
 {
-  "name": "shopping_cart_client",
+  "name": "shopping-cart",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node app",
-    "start-dev": "nodemon app"
+    "start": "node server",
+    "start-server": "nodemon server"
   },
   "author": "Juna",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "hbs": "^4.1.2",
-    "vue-core-video-player": "^0.2.0"
+    "gulp": "^4.0.2",
+    "mysql": "^2.18.1",
+    "underscore": "^1.13.1"
   },
   "devDependencies": {
-    "gulp": "^4.0.2",
-    "http-proxy-middleware": "^2.0.0"
+    "nodemon": "^2.0.7"
   }
 }
